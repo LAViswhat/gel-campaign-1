@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="uk-UK">
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N21GE669VJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-N21GE669VJ');
+    </script>
+
+    <script src="https://js.stripe.com/v3/"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d'Omo Cosmetics</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/checkout.css">
+
+</head>
+<body class="d-flex flex-column homepage">
+    <div class="lav-preloader"></div>
+<main class="flex-shrink-0">
+    <div class="sticky-header">
+        <div class="container">
+            <div class="row">
+                <div class="lav-content-collection">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="image ">
+                                <div>
+                                    <picture>
+                                        <img class="img-fluid" src="images/logo_hero.png" alt="D'Omo Gel">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="lav-contentcollection">
+                                <div class="header-links">
+                                    <div class="cart">
+                                        <div class="cart-image">
+                                            <img src="images/cart.svg" alt="cart">
+                                            <span class="count d-flex align-items-center justify-content-center">0</span>
+                                        </div>
+                                        <div class="cart-content">
+                                            <div class="cart-products"></div>
+                                            <div class="cart-summery">
+                                                <h4>Total price</h4>
+                                                <h4><span>0</span><strong>€</strong></h4>
+                                            </div>
+                                            <a href="#checkout" class="button secondary-btn cart-btn checkout">Checkout</a>
+                                            <div class="cart-empty text-center">
+                                                <h3>Cart is empty</h3>
+                                                <a href="#products" class="button secondary-btn cart-btn">View special offers</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section-hero">
+        <div class="container">
+            <div class="row">
+                <div class="lav-contentcollection">
+                    <div class="cart">
+                        <div class="cart-image lav-animation lav-animation-toright" data-delay="400">
+                            <img src="images/cart.svg" alt="cart">
+                            <span class="count d-flex align-items-center justify-content-center">0</span>
+                        </div>
+                        <div class="cart-content">
+                            <div class="cart-products"></div>
+                            <div class="cart-summery">
+                                <h4>Total price</h4>
+                                <h4><span>0</span><strong>€</strong></h4>
+                            </div>
+                            <a href="#checkout" class="button secondary-btn cart-btn checkout">Checkout</a>
+                            <div class="cart-empty text-center">
+                                <h3>Cart is empty</h3>
+                                <a href="#products" class="button secondary-btn cart-btn">View special offers</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image d-flex justify-content-center lav-animation lav-animation-toright" data-delay="500">
+                        <div>
+                            <picture><img class="img-fluid" src="images/logo_hero.png"></picture>
+                        </div>
+                    </div>
+                    <div class="row text text-sm-start align-items-center">
+                        <div class="col-md-6">
+                            <div class="lav-contentcollection">
+                                <div class="lav-animation lav-animation-toright" data-delay="600"><p>Raise the degree of your relationship, awaken your instincts,<br> improve your potentials? <br>
+                                    All this is possible with D’Omo male intimate gel!</p></div>
+                                <div class="section-title">
+                                    <div class="lav-animation lav-animation-toright" data-delay="700">
+                                        <h1>D’Omo intimate gel for male pleasure</h1>
+                                    </div>
+                                    <div class="lav-animation lav-animation-toright" data-delay="800">
+                                        <h4>Get the maximum strength out of yourself with d'Omo Gel</h4>
+                                    </div>
+                                    <div class="lav-animation lav-animation-toright" data-delay="900">
+                                        <h5>AVAILABLE WITHOUT PRESCRIPTION</h5>
+                                    </div>
+                                    <a class="button cta primary-btn text-center lav-animation lav-animation-toright" data-delay="750" href="#products">VIEW SPECIAL OFFERS</a>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="lav-contentcollection">
+        <div class="section service-bar px-2 mt-sm-0">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-10">
+                        <div class="lav-contentcollection">
+                            <div class="row align-items-start justify-content-center py-3">
+                                <div class="col-sm-3 col-6 lav-animation lav-animation-toright" data-delay="500">
+                                    <div class="lav-contentcollection">
+                                        <div class="d-flex flex-column align-items-center justify-content-center">
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="icon"><i class="service service-delivery"></i></div>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <div class="lav-contentcollection">
+                                                    <div><h4>Fast delivery</h4></div>
+                                                    <div><p class="mb-0">Within 2-3 days</p></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-6 lav-animation lav-animation-toright" data-delay="600">
+                                    <div class="lav-contentcollection">
+                                        <div class="d-flex flex-column align-items-center justify-content-center">
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="icon"><i class="service service-hours-support"></i></div>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <div class="lav-contentcollection">
+                                                    <div><h4>24h Service</h4></div>
+                                                    <div><p class="mb-0">Around the clock customer service</p></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-6 lav-animation lav-animation-toright" data-delay="700">
+                                    <div class="lav-contentcollection">
+                                        <div class="d-flex flex-column align-items-center justify-content-center">
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="icon"><i class="service service-payment"></i></div>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <div class="lav-contentcollection">
+                                                    <div><h4>Secure payment</h4></div>
+                                                    <div><p class="mb-0">Through encrypted webshop</p></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 col-6 lav-animation lav-animation-toright" data-delay="800">
+                                    <div class="lav-contentcollection">
+                                        <div class="d-flex flex-column align-items-center justify-content-center">
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="icon"><i class="service service-prescription"></i></div>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <div class="lav-contentcollection">
+                                                    <div><h4>Totally discreet</h4></div>
+                                                    <div><p class="mb-0">Protect your privacy</p></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div class="section pros-bar mt-4">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-10">
+                        <div class="lav-contentcollection">
+                            <div class="row">
+                                <div class="col-md-3 mb-2 lav-animation lav-animation-toright" data-delay="500">
+                                    <div class="lav-contentcollection">
+                                        <div>
+                                            <h4 class="pt-1 pt-md-0"><strong>INTENSIFIES</strong> the sensation of pleasure and orgasm</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-2 lav-animation lav-animation-toright" data-delay="600">
+                                    <div class="lav-contentcollection">
+                                        <div>
+                                            <h4 class="pt-1 pt-md-0"><strong>ACHIEVES</strong> firmer, stronger and longer lasting erections</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-2 lav-animation lav-animation-toright" data-delay="700">
+                                    <div class="lav-contentcollection">
+                                        <div>
+                                            <h4 class="pt-1 pt-md-0"><strong>INCREASES</strong> sex drive & <strong>INCREASES</strong> libido</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-2 lav-animation lav-animation-toright" data-delay="800">
+                                    <div class="lav-contentcollection">
+                                        <div>
+                                            <h4 class="pt-1 pt-md-0"><strong>INCREASES</strong> stamina & <strong>INCREASES</strong> vitality</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+        <div class="section section-3">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="lav-contentcollection">
+                            <div class="row">
+                                <div class="col-md d-flex justify-content-center lav-animation lav-animation-toright" data-delay="500">
+                                    <div class="lav-contentcollection">
+                                        <div class="image justify-content-center">
+                                            <div>
+                                                <picture><img class="img-fluid" src="images/img-1_section-3.png" alt="founder"></picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md d-flex justify-content-center mt-2">
+                                    <div class="lav-contentcollection">
+                                        <div>
+                                            <p class="lav-animation lav-animation-toright" data-delay="600">Hello, or Buongiorno how we say in Italy.</p>
+                                            <p class="lav-animation lav-animation-toright" data-delay="650">It's Giulio, the founder on D'OMO MEN'S GEL. 
+                                                Here at D'OMO we have years of experience inventing and testing new products that can make your bed life even more stunning.</p>
+                                            <p class="lav-animation lav-animation-toright" data-delay="700">Today I'm happy to introduce you this new product D'OMO MEN'S GEL.</p>
+                                        </div>
+                                        <div class="signature lav-animation lav-animation-toright" data-delay="700">
+                                            <p><strong>Giulio Grasso</strong><br><span class="fs-7">The founder of D'OMO<br> MEN'S GEL</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <div class="section section-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="lav-contentcollection">
+                            <div class="section-title lav-animation lav-animation-toright"  data-delay="500"><h2>WOMEN WHO DO NOT FEEL DESIRED WILL SOONER OR LATER SEEK SATISFACTION FROM OTHER MEN</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="lav-contentcollection">
+                            <div class="row">
+                                <div class="col-sm-4 lav-animation lav-animation-toright" data-delay="600" >
+                                    <div class="lav-contentcollection">
+                                        <div><h4>Orgasms</h4></div>         
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 lav-animation lav-animation-toright" data-delay="700">
+                                    <div class="lav-contentcollection">
+                                        <div><h4>Infidelity</h4></div>          
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 lav-animation lav-animation-toright" data-delay="800">
+                                    <div class="lav-contentcollection">
+                                        <div><h4>Dissatisfaction</h4></div>      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="lav-contentcollection">
+                            <div class="lav-animation lav-animation-toright" data-delay="700"><p>The risk of developing an inferiority complex is many times higher in people with a small penis.</p></div>
+                            <div class="lav-animation lav-animation-toright" data-delay="750"><p>The main cause of infidelity, 76%, is insufficient penis size. In separations and divorces, 54% of the causes are also due to unsatisfied sexual needs.</p></div>
+                            <div class="lav-animation lav-animation-toright" data-delay="800"><p>The peak of male sexuality ends at around 30 years of age. Most women only experience their sexual awakening at this age.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 lav-animation lav-animation-toright" data-delay="500">
+                        <div class="lav-contentcollection">
+                            <div class="section-title"><h2>SATISFY HER SEXUAL DESIRE AND FULFIL HER SECRET DESIRES - OTHERWISE SOMEONE ELSE WILL</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="lav-contentcollection">
+                            <div class="row">
+                                <div>
+                                    <div class="lav-contentcollection">
+                                        <div class="lav-animation lav-animation-toright" data-delay="550"><h4>No more limits in<br> your sex life</h4></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="lav-contentcollection">
+                                        <div class="lav-animation lav-animation-toright" data-delay="600"><h4>Increased semen volume<br> & improved sperm motility</h4></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="lav-contentcollection">
+                                        <div class="lav-animation lav-animation-toright" data-delay="650"><h4>Increased sexual desire</h4></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="section section-6">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="lav-contentcollection">
+                            <div class="row">
+                                <div class="col-md-6 ps-lg-5">
+                                    <div class="lav-contentcollection">
+                                        <div class="image lav-animation lav-animation-toright" data-delay="500">
+                                            <div>
+                                                <picture>
+                                                    <img class="img-fluid" src="images/img_section-6.png" alt="professor">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-flex align-items-center">
+                                    <div class="lav-contentcollection">
+                                        <div class="section-title lav-animation lav-animation-toright" data-delay="550"><h2>Developed by team of European experts: Scientists, Doctors and Psychologists</h2></div>
+                                        <div>
+                                            <p class="lav-animation lav-animation-toright" data-delay="600">D'Omo Gel does not contain artificial testosterone.
+                                                 All ingredients of D'Omo Gel have been thoroughly tested, so side effects of use can be ruled out.</p>
+                                            <p class="lav-animation lav-animation-toright" data-delay="650">There is a sales authorization in the entire European Union. Thus, D'Omo Gel does not require a prescription and can be purchased and used freely. </p>
+                                            <p class="lav-animation lav-animation-toright" data-delay="700">Unlike many other preparations that require a prescription, D'Omo Gel is free of side effects at normal dosages.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="section section-7">
+            <div class="container">
+                <div class="row justify-content-start">
+                    <div class="col-sm-7">
+                        <div class="lav-contentcollection">
+                            <div class="section-title lav-animation lav-animation-toright" data-delay="500"><h2>Turn your sex into pure ecstasy</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="col-sm-6">
+                        <div class="lav-contentcollection">
+                            <div class="lav-animation lav-animation-toright" data-delay="600"><p>A 100% natural intimate gel, specifically designed to satisfy the needs and desires of men.
+                                     For an intense and new pleasure.
+                                     Every single ingredient in d'Omo Gel has been carefully and specifically selected for its proven ability.</p></div>
+                            <div class="lav-animation lav-animation-toright" data-delay="700"><p>Years of research and several recognized studies confirm its effectiveness. 
+                                    Thorough research has been conducted so that side effects like many other lubricants and gels possess can be ruled out.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="col-sm-6">
+                        <div class="lav-contentcollection">
+                            <div>
+                                <div class="col">
+                                    <div class="lav-contentcollection">
+                                        <div class="lav-animation lav-animation-toright" data-delay="800"><h4>Increase their desire for you</h4></div>         
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="lav-contentcollection">
+                                        <div class="lav-animation lav-animation-toright" data-delay="900"><h4>Be ready for her at any time</h4></div>          
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="lav-contentcollection">
+                                        <div class="lav-animation lav-animation-toright" data-delay="1000"><h4>Give her multiple and unique orgasms</h4></div>      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-8">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="lav-contentcollection">
+                            <div class="section-title text-center lav-animation lav-animation-toright" data-delay="500">
+                                <h2>WOMEN WANT MEN TO APPEAR SUPER EXCITED, HAVING A ROCK HARD PENIS, WHICH IS A HUGE TURN ON FOR THEM</h2>
+                            </div>
+                            <div class="row align-items-start">
+                                <div class="col-sm-6 lav-animation lav-animation-toright" data-delay="600">
+                                    <div class="lav-contentcollection">
+                                        <div class="card">
+                                            <div><h3>1. OPTIMISATION OF THE SWELL BODIES</h3></div>
+                                            <div><p>Taking D'Omo Gel improves blood flow to the erectile tissue. 
+                                                The increased blood flow ensures a more intense and longer-lasting erection.
+                                            </p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 lav-animation lav-animation-toright" data-delay="700">
+                                    <div class="lav-contentcollection">
+                                        <div class="card">
+                                            <div><h3>2. HORMONAL BALANCE</h3></div>
+                                            <div><p>A higher concentration of the hormone testosterone has a strong influence on erection strength and the quality of orgasms.
+                                                    Increasing testosterone levels leads to stronger sexual desire and self-confidence.
+                                            </p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-start">
+                                <div class="col-sm-6 lav-animation lav-animation-toright" data-delay="800">
+                                    <div class="lav-contentcollection">
+                                        <div class="card">
+                                            <div><h3>3. ACCELERATED CELL REGENERATION</h3></div>
+                                            <div><p>The regeneration of cells plays a central role in the expansion of the erectile tissue. 
+                                                    For a stronger and harder erection, the body needs to produce new cells faster.
+                                            </p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 lav-animation lav-animation-toright" data-delay="900">
+                                    <div class="lav-contentcollection">
+                                        <div class="card">
+                                            <div><h3>4. ENERGY & ENDURANCE</h3></div>
+                                            <div><p>D'Omo Gel not only increases your energy level,
+                                                     but also your stamina. Long hot nights are no longer a problem thanks to the increased strength and potency.
+                                            </p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-9">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="lav-contentcollection">
+                            <div class="row align-items-start">
+                                <div class="col-md-3 pt-1 lav-animation lav-animation-toright" data-delay="500">
+                                    <div class="lav-contentcollection">
+                                        <div class="d-flex flex-md-column">
+                                            <div class="image pe-2 pe-md-0">
+                                                <div>
+                                                    <picture><img class="img-fluid" src="images/img-1_section-9.png" alt=""></picture>
+                                                </div>
+                                            </div>
+                                            <div class="text col-6 col-md-12">
+                                                <div>
+                                                    <picture><img src="images/quotation.svg" alt=""></picture>
+                                                </div>
+                                                <p>
+                                                    Odiavo il momento in cui le ragazze cominciavano a slacciarmi la cerniera.
+                                                     Toglievo i boxer un attimo prima della penetrazione.
+                                                     Mi vergognavo... Adesso, grazie a questo metodo ho oltre 21 cm e mi sento come un dio del sesso. Che invenzione
+                                                </p>
+                                                <p><strong>Mario, 21 anni</strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-1 lav-animation lav-animation-toright" data-delay="700">
+                                    <div class="lav-contentcollection">
+                                        <div class="d-flex flex-md-column">
+                                            <div class="image pe-2 pe-md-0">
+                                                <div>
+                                                    <picture><img class="img-fluid" src="images/img-2_section-9.png" alt=""></picture>
+                                                </div>
+                                            </div>
+                                            <div class="text col-6 col-md-12">
+                                                <div>
+                                                    <picture><img src="images/quotation.svg" alt=""></picture>
+                                                </div>
+                                                <p>
+                                                    Per anni sono stato tormentato dai complessi (11 cm), anche se la soluzione era davvero a portata di mano. 
+                                                    Ho appena finito di usare Erogen-X. 
+                                                    Che prodotto eccezionale! Il mio pene è più lungo, più duro e più grosso.
+                                                     E io ne sono fiero ;P che figata
+                                                </p>
+                                                <p><strong>Davide, 40 anni</strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-1 lav-animation lav-animation-toright" data-delay="900">
+                                    <div class="lav-contentcollection">
+                                        <div class="d-flex flex-md-column">
+                                            <div class="image pe-2 pe-md-0">
+                                                <div>
+                                                    <picture><img class="img-fluid" src="images/img-3_section-9.png" alt=""></picture>
+                                                </div>
+                                            </div>
+                                            <div class="text col-6 col-md-12">
+                                                <div>
+                                                    <picture><img src="images/quotation.svg" alt=""></picture>
+                                                </div>
+                                                <p>
+                                                    Ich bin ein Glückspilz, ein richtiger Sexdämon unter den komplexvollen Kumpels mit kleinen Penis :D
+                                                     Vor StartErotique hatte ich 16 cm,
+                                                     jetzt habe ich 25 cm und obwohl es früher super war, zeigte es sich, dass es immer besser werden kann!
+                                                </p>
+                                                <p><strong>Sergio, 24 anni</strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pt-1 lav-animation lav-animation-toright" data-delay="1000">
+                                    <div class="lav-contentcollection">
+                                        <div class="d-flex flex-md-column">
+                                            <div class="image pe-2 pe-md-0">
+                                                <div>
+                                                    <picture><img class="img-fluid" src="images/img-4_section-9.png" alt=""></picture>
+                                                </div>
+                                            </div>
+                                            <div class="text col-6 col-md-12">
+                                                <div>
+                                                    <picture><img src="images/quotation.svg" alt=""></picture>
+                                                </div>
+                                                <p>
+                                                    Ich habe schon mehrere Methoden zur Penisvergrößerung versucht, aber nichts hat bis dahin Resultate gegeben.
+                                                     Erst diese Kur hat meinen Penis um 5 cm verlängert :) Der Unterschied, wie meine Partnerin die Lust empfindet,
+                                                     ist riesig – ich weiß es von ihren Erzählungen und Reaktionen :D 
+                                                     am liebsten würden wir das Bett nicht mehr verlassen. Ich empfehle es!!
+                                                </p>
+                                                <p><strong>Lukas, 36 Jahre</strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section advantages-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="lav-contentcollection">
+                            <div class="row align-items-md-start justify-content-xl-center justify-content-md-around my-xl-4">
+                                <div class="col-md-2 lav-animation lav-animation-toright" data-delay="500">
+                                    <div class="lav-contentcollection">
+                                        <div class="d-flex flex-column align-items-center justify-content-center">
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="icon"><i class="service service-sensitivity"></i></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="text-center"><h4>GREATER SENSITIVITY</h4></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 lav-animation lav-animation-toright" data-delay="600">
+                                    <div class="lav-contentcollection">
+                                        <div class="col d-flex flex-column align-items-center justify-content-center">
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="icon"><i class="service service-pleasure"></i></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="text-center"><h4>A NEW PLEASURE</h4></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 lav-animation lav-animation-toright" data-delay="700">
+                                    <div class="lav-contentcollection">
+                                        <div class="col d-flex flex-column align-items-center justify-content-center">
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="icon"><i class="service service-natural"></i></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="text-center"><h4>100% NATURAL AND SAFE INGREDIENTS</h4></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 lav-animation lav-animation-toright" data-delay="800">
+                                    <div class="lav-contentcollection">
+                                        <div class="col d-flex flex-column align-items-center justify-content-center">
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="icon"><i class="service service-body"></i></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="text-center"><h4>STIMULATING AND INVIGORATING</h4></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 lav-animation lav-animation-toright" data-delay="900">
+                                    <div class="lav-contentcollection">
+                                        <div class="col d-flex flex-column align-items-center justify-content-center">
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="icon"><i class="service service-guarantee"></i></div>
+                                                </div>  
+                                            </div>
+                                            <div>
+                                                <div class="lav-contentcollection">
+                                                    <div class="text-center"><h4>GUARANTEED RESULT AFTER 5 min OF USE</h4></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-10">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="lav-contentcollection">
+                            <div class="section-title text-center lav-animation lav-animation-toright" data-delay="500"><h2>THE BEST PERFORMING INGREDIENTS</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="lav-contentcollection">
+                            <div class="lav-animation lav-animation-toright" data-delay="600"><h4>Its active ingredients are specifically selected by our experts to ensure maximum comfort and increase men’s intimate pleasure:</h4></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="lav-contentcollection">
+                        <div class="row pb-sm-4">
+                            <div class="col-sm-6 lav-animation lav-animation-toright" data-delay="700">
+                                <div class="lav-contentcollection">
+                                    <div><h4>Peruvian Maca</h4></div>
+                                    <div><p>Used for centuries in the Andes, it is said to be a ‘natural Viagra’. 
+                                            It increases sensitivity in the area of application, providing truly intense sensations.</p></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 lav-animation lav-animation-toright" data-delay="800">
+                                <div class="lav-contentcollection">
+                                    <div><h4>Hyaluronic Acid</h4></div>
+                                    <div><p>This powerful natural moisturiser, together with the water base, provides pleasant and long-lasting lubrication.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lav-contentcollection">
+                        <div class="row">
+                            <div class="col-sm-6 lav-animation lav-animation-toright" data-delay="900">
+                                <div class="lav-contentcollection">
+                                    <div><h4>L-arginine</h4></div>
+                                    <div><p>Is a semi-essential amino acid involved in important metabolic processes in cells.
+                                         It helps muscle development and improved performance, which makes it optimal for sports sessions and increases performance under stress.</p></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 lav-animation lav-animation-toright" data-delay="1000">
+                                <div class="lav-contentcollection">
+                                    <div><h4>Caffeine</h4></div>
+                                    <div><p>For a profound stimulating action, promoting blood flow to the penis.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-feedback">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="lav-contentcollection">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <div class="lav-contentcollection">
+                                        <div class="section-title text-center lav-animation lav-animation-toright" data-delay="500"><h2>Real feedback from our client</h2></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-md-center">
+                                <div class="col-sm-6">
+                                    <div class="lav-contentcollection">
+                                        <div class="d-flex align-items-center lav-animation lav-animation-toright" data-delay="550">
+                                            <ul class="rating-stars list-inline mb-0 ">
+                                                <li class="list-inline-item mt-0 me-1">
+                                                    <svg width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                    </svg>
+                                                </li>
+                                                <li class="list-inline-item mt-0 me-1">
+                                                    <svg width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                    </svg>
+                                                </li>
+                                                <li class="list-inline-item mt-0 me-1">
+                                                    <svg width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                    </svg>
+                                                </li>
+                                                <li class="list-inline-item mt-0 me-1">
+                                                    <svg width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                    </svg>
+                                                </li>
+                                                <li class="list-inline-item mt-0">
+                                                    <svg width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                                    </svg>
+                                                </li>
+                                            </ul>
+                                            <h4 class="h2 fs-2 mb-0 ps-1">5/5</h4>
+                                        </div>
+                                        <div class="lav-animation lav-animation-toright" data-delay="600">
+                                            <h4 class="mt-2">Hugh, 34 years</h4>
+                                        </div>
+                                        <div class="image lav-animation lav-animation-toright" data-delay="650">
+                                            <div>
+                                                <picture>
+                                                    <img class="img-fluid" src="images/guy.jpg"></img>
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 lav-animation lav-animation-toright" data-delay="700">
+                                    <div class="lav-contentcollection">
+                                        <div>
+                                            <p class="fs-6 fs-5">"This body massage gel is some kind of magic! 
+                                                I've been using it with my girlfriend just for a couple of weeks but already noticed some real improvements,
+                                                 we became more sensual to each other and our acts are much more longer now. 
+                                                 Even when my girlfriend was away for a business trip we've tried something new using the whatsapp video,
+                                                  so I can confirm - you can use it if you're alone too!  I'm going to order another 4 pack of this gel when it still on 55% discount."
+                                                Increases bed activity and endurance.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="lav-contentcollection">
+                            <div class="row align-items-start">
+                                <div class="col-sm-3 lav-animation lav-animation-toright" data-delay="500">
+                                    <div class="lav-contentcollection">
+                                        <div>
+                                            <h4>SAVE UP TO 55% WHEN BUYING IN BULK</h4>
+                                            <p>Great deals on packages. Save your time and money, order a lot at once.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 lav-animation lav-animation-toright" data-delay="600">
+                                    <div class="lav-contentcollection">
+                                        <div>
+                                            <h4>LONG LASTING EFFECT:</h4>
+                                            <p>Designed to improve male's sexual pleasure and increase sexual vitality</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 lav-animation lav-animation-toright" data-delay="700">
+                                    <div class="lav-contentcollection">
+                                        <div>
+                                            <h4>LATEX, CONDOM & SEX TOY FRIENDLY:</h4>
+                                            <p>DOMO Men's Gel is compatible with most toy materials, latex & condoms so you can play safely whatever your pleasure.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 lav-animation lav-animation-toright" data-delay="800">
+                                    <div class="lav-contentcollection">
+                                        <div>
+                                            <h4>NON-STAINING, EASY TO CLEAN:</h4>
+                                            <p>Pure, water-based lubricants offer the easiest cleanup of any sexual lubricant, washing off easily with water.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-products" id="products">
+            <div class="container">
+                <div class="row px-2">
+                    <div class="col">
+                        <div class="lav-contentcollection">
+                            <div class="row">
+                                <div class="section-title text-center py-4 lav-animation lav-animation-toright" data-delay="500">
+                                    <h1 class="h1">Our offers</h1>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 lav-animation lav-animation-toright" data-delay="600">
+                                    <div class="lav-contentcollection">
+                                        <div class="product-item" data-id="8">
+                                            <div class="product-item-inner">
+                                                <span class="discount">-15%</span>
+                                                <div class="product-item-image" style="background-image: url(images/pack_one.png) ;">
+                                                    <img class="img-fluid" style="padding: 0.5rem;" src="images/pack_one.png" alt="">
+                                                </div>
+                                                <h3 class="text-center product-item-title">D'Omo Men's Gel</h3>
+                                                <h4 class="text-center product-item-qty">1 pack</h4>
+                                                <div class="lav-contentcollection">
+                                                    <div class="highlighted">
+                                                        <ul>
+                                                            <li>Save a whole 15% with this package</li>
+                                                            <li>Free shipping</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price text-center">
+                                                    <div>
+                                                        <p class="no-discount mb-0"><span>105.80 €</span></p>
+                                                        <p class="product-current-price"><span class="big">89.95</span><strong> €</strong></p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-grid">
+                                                    <button class="btn product-btn btn-lg">Add to cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 lav-animation lav-animation-toright" data-delay="700">
+                                    <div class="lav-contentcollection">
+                                        <div class="product-item" data-id="14">
+                                            <div class="product-item-inner">
+                                                <span class="discount">-25%</span>
+                                                <div class="product-item-image" style="background-image: url(images/pack_two.png) ;">
+                                                    <img class="img-fluid" src="images/pack_two.png" alt="">
+                                                </div>
+                                                <h3 class="text-center product-item-title">D'Omo Men's Gel</h3>
+                                                <h4 class="text-center product-item-qty">2 pack deal</h4>
+                                                <div class="lav-contentcollection">
+                                                    <div class="highlighted">
+                                                        <ul>
+                                                            <li>Save a whole 25% with this package</li>
+                                                            <li>Free shipping</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price text-center">
+                                                    <div>
+                                                        <p class="no-discount mb-0"><span>211.60 €</span></p>
+                                                        <p class="product-current-price"><span class="big">158.70</span><strong> €</strong></p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-grid">
+                                                    <button class="btn product-btn btn-lg">Add to cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 lav-animation lav-animation-toright" data-delay="800">
+                                    <div class="lav-contentcollection">
+                                        <div class="product-item" data-id="15">
+                                            <div class="product-item-inner">
+                                                <span class="discount">-45%</span>
+                                                <div class="product-item-image" style="background-image: url(images/pack_three.png) ;">
+                                                    <img class="img-fluid" src="images/pack_three.png" alt="">
+                                                </div>
+                                                <h3 class="text-center product-item-title">D'Omo Men's Gel</h3>
+                                                <h4 class="text-center product-item-qty">3 pack deal</h4>
+                                                <div class="lav-contentcollection">
+                                                    <div class="highlighted">
+                                                        <ul>
+                                                            <li>Save a whole 45% with this package</li>
+                                                            <li>Free shipping</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price text-center">
+                                                    <div>
+                                                        <p class="no-discount mb-0"><span>317.40 €</span></p>
+                                                        <p class="product-current-price"><span class="big">174.60</span><strong> €</strong></p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-grid">
+                                                    <button class="btn product-btn btn-lg">Add to cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 lav-animation lav-animation-toright" data-delay="900">
+                                    <div class="lav-contentcollection">
+                                        <div class="product-item" data-id="19">
+                                            <div class="product-item-inner">
+                                                <span class="discount">-55%</span>
+                                                <div class="product-item-image" style="background-image: url(images/pack_four.png);">
+                                                    <img class="img-fluid" src="images/pack_four.png" alt="">
+                                                </div>
+                                                <h3 class="text-center product-item-title">D'Omo Men's Gel</h3>
+                                                <h4 class="text-center product-item-qty">4 pack deal</h4>
+                                                <div class="lav-contentcollection">
+                                                    <div class="highlighted">
+                                                        <ul>
+                                                            <li>Save a whole 55% with this package</li>
+                                                            <li>Free shipping</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product-price text-center">
+                                                    <div>
+                                                        <p class="no-discount mb-0"><span>453.20 €</span></p>
+                                                        <p class="product-current-price"><span class="big">190.40</span><strong> €</strong></p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-grid">
+                                                    <button class="btn product-btn btn-lg">Add to cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-checkout" id="checkout">
+            <div class="container mt-sm-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="lav-contentcollection">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7">
+                                    <div class="section-title text-center">
+                                        <h1 class="h1">Checkout</h1>
+                                    </div>
+                                    <form action="order-update" method="post" id="address-form">
+                                        <div class="container container__bil">
+                                            <div class="section-title text-left">
+                                                <h2>Billing address</h2>
+                                            </div>
+                                            <div class="input-group required">
+                                                <label for="email_bil">Email</label>
+                                                <input class="form-control" type="email" name="email" id="email_bil" required>
+                                            </div>
+                                            <div class="input-group required">
+                                                <label for="select_country_bil required">Country</label>
+                                                <select class="form-select form-control" name="select_country" id="select_country_bil" required>
+                                                    <option value="">Select country</option>
+                                                    <option value="2">Germany</option>
+                                                    <option value="202">Spain</option>
+                                                    <option value="1">Italy</option>
+                                                    <option value="3">Switzerland</option>
+                                                    <option value="148">Netherlands</option>
+                                                    <option value="73">France</option>
+                                                    <option value="14">Austria</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-group required">
+                                                <label for="state_bil">State/region</label>
+                                                <input class="form-control" type="text" name="billing[state]" id="state_bil" required>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="input-group required">
+                                                        <label for="firstname_bil">Firstname</label>
+                                                        <input class="form-control" type="text" name="billing[first_name]" id="firstname_bil" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="input-group required">
+                                                        <label for="lastname_bil">Lastname</label>
+                                                        <input class="form-control" type="text" name="billing[last_name]" id="lastname_bil" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="input-group required">
+                                                <label for="address_bil">Address</label>
+                                                <input class="form-control" type="text" name="billing[address_1]" id="address_bil" required>
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="appartmen_bil">Appartment, suiete, etc.</label>
+                                                <input class="form-control mt-2" type="text" name="billing[address_2]" id="appartment_bil">
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="input-group required">
+                                                        <label for="city_bil">City</label>
+                                                        <input class="form-control" type="text" name="billing[city]" id="city_bil" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="input-group required">
+                                                        <label for="postal_code_bil">Postal code</label>
+                                                        <input class="form-control" type="text" name="billing[zip]" id="postal_code_bil" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="input-group required mb-4">
+                                                <label for="phone_bil">Phone</label>
+                                                <input class="form-control" type="tel" name="billing[phone]" id="phone_bil" minlength="8" maxlength="20" required>
+                                            </div>
+                                        </div>
+                                        <div class="container mb-4">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="lav-contentcollection">
+                                                        <div class="select-another-address d-flex align-items-center flex-nowrap"> 
+                                                            <label for="select-another-address">Ship to another address
+                                                                <input type="checkbox" name="select_address" id="select-another-address">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container container__ship" style="display: none;">
+                                            <h2 class="text-left">Shipping address</h2>
+                                            <div class="input-group required">
+                                                <label for="email_ship">Email</label>
+                                                <input class="form-control" type="email" name="email" id="email_ship">
+                                            </div>
+                                            <div class="input-group required">
+                                                <label for="select_country_ship required">Country</label>
+                                                <select class="form-select form-control" name="select_country" id="select_country_ship">
+                                                    <option value="">Select country</option>
+                                                    <option value="2">Germany</option>
+                                                    <option value="202">Spain</option>
+                                                    <option value="1">Italy</option>
+                                                    <option value="3">Switzerland</option>
+                                                    <option value="148">Netherlands</option>
+                                                    <option value="73">France</option>
+                                                    <option value="14">Austria</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-group required">
+                                                <label for="state_ship">State/region</label>
+                                                <input class="form-control" type="text" name="shipping[state]" id="state_ship">
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="input-group required">
+                                                        <label for="firstname_ship">Firstname</label>
+                                                        <input class="form-control" type="text" name="shipping[first_name]" id="firstname_ship">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="input-group required">
+                                                        <label for="lastname_ship">Lastname</label>
+                                                        <input class="form-control" type="text" name="shipping[last_name]" id="lastname_ship">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="input-group required">
+                                                <label for="address_ship">Address</label>
+                                                <input class="form-control" type="text" name="shipping[address_1]" id="address_ship">
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="appartmen_ship">Appartment, suiete, etc.</label>
+                                                <input class="form-control mt-2" type="text" name="shipping[address_2]" id="appartment_ship">
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="input-group required">
+                                                        <label for="city_ship">City</label>
+                                                        <input class="form-control" type="text" name="shipping[city]" id="city_ship">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="input-group required">
+                                                        <label for="postal_code_ship">Postal code</label>
+                                                        <input class="form-control" type="text" name="shipping[zip]" id="postal_code_ship">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="input-group required mb-4">
+                                                <label for="phone_ship">Phone</label>
+                                                <input class="form-control" type="tel" name="shipping[phone]" id="phone_ship" minlength="8" maxlength="20">
+                                            </div>
+                                        </div>
+                                        <div class="container terms-input-group mb-2">
+                                            <label class="d-flex flex-nowrap align-items-center" for="terms">            
+                                                <p class="mb-0">I have read and agree with <a href="terms.html">Terms & Conditions</a> of sale.</p> 
+                                                <input type="checkbox" id="terms" required checked>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <p class="text-danger">*To continue this checkbox shoud be checked</p>
+                                        </div>
+                                        <button class="checkout-button d-flex justify-content-center" type="submit">Proceed to payment</button>
+                                    </form>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="section-order-summery mt-3 px-3">
+                                        <div class="section-title mt-3">
+                                            <h2>Order summery</h2>
+                                        </div>
+                                        <div class="order-products mt-3"></div>
+                                        <div class="order-summery"></div>
+                                    </div>
+                                    <div class="section section-payments mt-3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="lav-contentcollection">
+                                                        <div class="row justify-content-center">
+                                                            <div>
+                                                                <div class="section-title">
+                                                                    <h2 class="h2">Payment Info.</h2>
+                                                                </div>
+                                                                <!-- Display a payment form -->
+                                                                <form id="payment-form">
+                            
+                                                                    <div id="payment-element">
+                                                                        <!--Stripe.js injects the Payment Element-->
+                                                                    </div>
+                            
+                                                                    <div>
+                                                                        <button class="checkout-button d-flex justify-content-center" id="submit">
+                                                                            <div class="spinner hidden" id="spinner"></div>
+                                                                            <span id="button-text">Place my order</span>
+                                                                        </button>
+                                                                    </div>
+                            
+                                                                    <div id="error-message" class="hidden">
+                                                                        <p class="text-danger">*An unexpected error occurred.</p>
+                                                                    </div>
+                            
+                                                                    <div id="payment-message" class="hidden"></div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section pt-5">
+            <div class="container">
+                <div class="row mb-2">
+                    <div class="col">
+                        <div class="lav-contentcollection">
+                            <div class="text-center">
+                                <a href="terms.html">Terms & Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="lav-contentcollection">
+                            <div class="image">
+                                <div class="text-center">
+                                    <picture>
+                                        <img class="img-fluid" src="images/payment_services.png">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <div class="lav-contentcollection">
+                            <div class="image">
+                                <div class="text-center">
+                                    <picture>
+                                        <img class="img-fluid" src="images/delivery.png">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="lav-contentcollection">
+                            <div class="image">
+                                <div class="text-center">
+                                    <picture>
+                                        <img class="img-fluid" src="images/made-in-italy.png">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="lav-contentcollection">
+                            <div class="image">
+                                <div class="text-center">
+                                    <picture>
+                                        <img class="img-fluid" src="images/logo.png">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer sp-y mt-auto">
+    <div class="footer-widget-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="widget-item">
+                        <div class="about-widget text-center">
+                            <div class="lav-contentcollection">
+                                <div><p>Vie Pobiette 11, 6928 Manno, Switzerland CHE-311.602.713</p></div>
+                                <div class="copy-rights"><p>TAKEOFF Sagl  © - 2024 All rights reserved</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="lav-button-up">
+    <span><i class="fas fa-chevron-up"></i></span>
+</div>
+<!--  <div class="lav-sticky-button">
+    <div>
+        <a class="button cta primary-btn text-center" href="https://domocosmetics.shop/">VIEW SPECIAL OFFERS</a>
+    </div>
+ </div> -->
+<a class="button cta primary-btn text-center" href="#products" id="mobile-cta">VIEW SPECIAL OFFERS</a>
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/checkout.js" defer></script>
+
+</body>
+</html>
